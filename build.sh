@@ -19,4 +19,4 @@ bash autogen.sh
        --enable-eap-mschapv2\
        --enable-xauth-eap
 make
-make install DESTDIR=build/
+make install DESTDIR=/root/build/
