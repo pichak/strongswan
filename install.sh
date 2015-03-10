@@ -8,6 +8,7 @@ apt-get -y build-dep strongswan
 
 # build node.js
 cd /root/
+bash autogen.sh
 ./configure \
        --prefix=/usr\
        --sysconfdir=/etc\
